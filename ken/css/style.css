@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: colorChange 3s infinite linear;
+}
+
+@keyframes colorChange {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: yellow; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.image-container {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p{
+
+ text-align: center;
+ animation: colorChange 3s infinite linear;
+
+}
